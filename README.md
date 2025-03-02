@@ -21,21 +21,14 @@ Perl script to benchmark system performance, including CPU, Disk I/O, Memory, an
 
 ---
 
-## **Installation**
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/performance-benchmarking-tool.git
-   cd performance-benchmarking-tool
-   ```
-
-2. **Install Dependencies**:
+ **Install Dependencies**:
    - On **Debian/Ubuntu**:
      ```bash
      sudo apt update
      sudo apt install perl sysbench iperf apache2-utils
      ```
-3. **Make the Script Executable**:
+ **Make the Script Executable**:
    ```bash
    chmod +x benchmark.pl
    ```
@@ -44,7 +37,6 @@ Perl script to benchmark system performance, including CPU, Disk I/O, Memory, an
 
 ## **Usage**
 
-### **Basic Usage**
 Run the script with default settings:
 ```bash
 ./benchmark.pl
