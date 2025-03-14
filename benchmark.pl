@@ -4,13 +4,12 @@ use warnings;
 use Time::HiRes qw(gettimeofday);
 use Getopt::Long;
 
-# Default benchmark parameters
-my $cpu_prime = 20000;       # CPU benchmark: max prime number
-my $disk_size = "1G";        # Disk I/O benchmark: file size
-my $memory_size = "10G";     # Memory benchmark: total size
-my $iperf_server = "";       # iperf server for network benchmark
-my $app_url = "";            # Application URL for benchmarking
-my $help = 0;                # Help flag
+my $cpu_prime = 20000;       
+my $disk_size = "1G";        
+my $memory_size = "10G";     
+my $iperf_server = "";       
+my $app_url = "";            
+my $help = 0;                
 
 # Parse command-line options
 GetOptions(
@@ -40,7 +39,6 @@ HELP
     exit;
 }
 
-# Function to benchmark CPU
 sub benchmark_cpu {
     print "Running CPU benchmark...\n";
     my $start_time = gettimeofday;
@@ -52,7 +50,6 @@ sub benchmark_cpu {
     return $cpu_time;
 }
 
-# Function to benchmark Disk I/O
 sub benchmark_disk {
     print "Running Disk I/O benchmark...\n";
     my $start_time = gettimeofday;
@@ -65,7 +62,6 @@ sub benchmark_disk {
     return $disk_time;
 }
 
-# Function to benchmark Memory
 sub benchmark_memory {
     print "Running Memory benchmark...\n";
     my $start_time = gettimeofday;
@@ -77,7 +73,6 @@ sub benchmark_memory {
     return $memory_time;
 }
 
-# Function to benchmark Network using iperf
 sub benchmark_network {
     my ($server) = @_;
     unless ($server) {
@@ -94,7 +89,6 @@ sub benchmark_network {
     return $network_time;
 }
 
-# Function to benchmark Application
 sub benchmark_application {
     my ($url) = @_;
     unless ($url) {
@@ -111,7 +105,6 @@ sub benchmark_application {
     return $app_time;
 }
 
-# Function to generate a report
 sub generate_report {
     my ($cpu_time, $disk_time, $memory_time, $network_time, $app_time) = @_;
     my $report = <<"REPORT";
@@ -125,7 +118,6 @@ REPORT
     return $report;
 }
 
-# Main script
 print "Starting Performance Benchmarking Tool...\n\n";
 
 # Run benchmarks
@@ -135,7 +127,6 @@ my $memory_time = benchmark_memory();
 my $network_time = benchmark_network($iperf_server);
 my $app_time = benchmark_application($app_url);
 
-# Generate and print report
 my $report = generate_report($cpu_time, $disk_time, $memory_time, $network_time, $app_time);
 print $report;
 
