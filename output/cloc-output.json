@@ -1,0 +1,123 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 9.0149290561676,
+  "n_files"            : 13360,
+  "n_lines"            : 1385986,
+  "files_per_second"   : 1481.98614950383,
+  "lines_per_second"   : 153743.417320824},
+"JavaScript" :{
+  "nFiles": 6933,
+  "blank": 100957,
+  "comment": 152346,
+  "code": 797646},
+"Apex Class" :{
+  "nFiles": 4454,
+  "blank": 6776,
+  "comment": 4097,
+  "code": 77533},
+"CSV" :{
+  "nFiles": 20,
+  "blank": 2,
+  "comment": 0,
+  "code": 54936},
+"TypeScript" :{
+  "nFiles": 1516,
+  "blank": 5543,
+  "comment": 64878,
+  "code": 52124},
+"Jupyter Notebook" :{
+  "nFiles": 27,
+  "blank": 0,
+  "comment": 17175,
+  "code": 11432},
+"C/C++ Header" :{
+  "nFiles": 8,
+  "blank": 1410,
+  "comment": 1003,
+  "code": 7711},
+"Text" :{
+  "nFiles": 73,
+  "blank": 539,
+  "comment": 0,
+  "code": 6733},
+"PHP" :{
+  "nFiles": 35,
+  "blank": 682,
+  "comment": 148,
+  "code": 4933},
+"EJS" :{
+  "nFiles": 21,
+  "blank": 505,
+  "comment": 93,
+  "code": 3721},
+"C" :{
+  "nFiles": 26,
+  "blank": 971,
+  "comment": 454,
+  "code": 3408},
+"XML" :{
+  "nFiles": 99,
+  "blank": 9,
+  "comment": 15,
+  "code": 2273},
+"Markdown" :{
+  "nFiles": 8,
+  "blank": 379,
+  "comment": 0,
+  "code": 1276},
+"C++" :{
+  "nFiles": 3,
+  "blank": 149,
+  "comment": 113,
+  "code": 1020},
+"YAML" :{
+  "nFiles": 52,
+  "blank": 111,
+  "comment": 89,
+  "code": 863},
+"Bourne Shell" :{
+  "nFiles": 33,
+  "blank": 118,
+  "comment": 12,
+  "code": 434},
+"DOS Batch" :{
+  "nFiles": 28,
+  "blank": 54,
+  "comment": 0,
+  "code": 407},
+"SQL" :{
+  "nFiles": 2,
+  "blank": 39,
+  "comment": 34,
+  "code": 263},
+"Python" :{
+  "nFiles": 5,
+  "blank": 0,
+  "comment": 4,
+  "code": 138},
+"INI" :{
+  "nFiles": 8,
+  "blank": 31,
+  "comment": 0,
+  "code": 122},
+"Perl" :{
+  "nFiles": 1,
+  "blank": 15,
+  "comment": 3,
+  "code": 115},
+"make" :{
+  "nFiles": 7,
+  "blank": 38,
+  "comment": 20,
+  "code": 85},
+"CoffeeScript" :{
+  "nFiles": 1,
+  "blank": 1,
+  "comment": 0,
+  "code": 0},
+"SUM": {
+  "blank": 118329,
+  "comment": 240484,
+  "code": 1027173,
+  "nFiles": 13360} }
