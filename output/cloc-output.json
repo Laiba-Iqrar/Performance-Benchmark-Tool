@@ -1,46 +1,61 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 9.09232497215271,
-  "n_files"            : 13376,
-  "n_lines"            : 1386252,
-  "files_per_second"   : 1471.13087587245,
-  "lines_per_second"   : 152463.974203046},
+  "elapsed_seconds"    : 10.2497570514679,
+  "n_files"            : 13940,
+  "n_lines"            : 1538284,
+  "files_per_second"   : 1360.03223588637,
+  "lines_per_second"   : 150080.045046502},
 "JavaScript" :{
   "nFiles": 6933,
   "blank": 100957,
   "comment": 152346,
   "code": 797646},
+"CSV" :{
+  "nFiles": 52,
+  "blank": 2,
+  "comment": 0,
+  "code": 91741},
 "Apex Class" :{
   "nFiles": 4454,
   "blank": 6776,
   "comment": 4097,
   "code": 77533},
-"CSV" :{
-  "nFiles": 22,
-  "blank": 2,
-  "comment": 0,
-  "code": 55039},
 "TypeScript" :{
   "nFiles": 1516,
   "blank": 5543,
   "comment": 64878,
   "code": 52124},
+"Python" :{
+  "nFiles": 285,
+  "blank": 11209,
+  "comment": 24112,
+  "code": 45724},
+"C/C++ Header" :{
+  "nFiles": 37,
+  "blank": 2757,
+  "comment": 3197,
+  "code": 16022},
 "Jupyter Notebook" :{
   "nFiles": 27,
   "blank": 0,
   "comment": 17175,
   "code": 11432},
-"C/C++ Header" :{
-  "nFiles": 8,
-  "blank": 1410,
-  "comment": 1003,
-  "code": 7711},
 "Text" :{
-  "nFiles": 74,
-  "blank": 539,
+  "nFiles": 110,
+  "blank": 842,
   "comment": 0,
-  "code": 6737},
+  "code": 8044},
+"XSLT" :{
+  "nFiles": 3,
+  "blank": 699,
+  "comment": 467,
+  "code": 7525},
+"C" :{
+  "nFiles": 82,
+  "blank": 1245,
+  "comment": 842,
+  "code": 6235},
 "PHP" :{
   "nFiles": 35,
   "blank": 682,
@@ -51,31 +66,46 @@
   "blank": 505,
   "comment": 93,
   "code": 3721},
-"C" :{
-  "nFiles": 26,
-  "blank": 971,
-  "comment": 454,
-  "code": 3408},
 "XML" :{
-  "nFiles": 99,
+  "nFiles": 100,
   "blank": 9,
-  "comment": 15,
-  "code": 2273},
+  "comment": 16,
+  "code": 2287},
+"Cython" :{
+  "nFiles": 11,
+  "blank": 494,
+  "comment": 438,
+  "code": 2251},
+"C++" :{
+  "nFiles": 6,
+  "blank": 205,
+  "comment": 141,
+  "code": 1558},
+"YAML" :{
+  "nFiles": 65,
+  "blank": 111,
+  "comment": 91,
+  "code": 1469},
 "Markdown" :{
   "nFiles": 8,
   "blank": 379,
   "comment": 0,
   "code": 1276},
-"C++" :{
+"Fortran 90" :{
+  "nFiles": 60,
+  "blank": 129,
+  "comment": 97,
+  "code": 987},
+"SQL" :{
   "nFiles": 3,
-  "blank": 149,
-  "comment": 113,
-  "code": 1020},
-"YAML" :{
-  "nFiles": 64,
-  "blank": 111,
-  "comment": 89,
-  "code": 1009},
+  "blank": 183,
+  "comment": 324,
+  "code": 910},
+"Perl" :{
+  "nFiles": 17,
+  "blank": 69,
+  "comment": 3,
+  "code": 498},
 "Bourne Shell" :{
   "nFiles": 33,
   "blank": 118,
@@ -86,43 +116,68 @@
   "blank": 54,
   "comment": 0,
   "code": 407},
-"SQL" :{
+"Fortran 77" :{
+  "nFiles": 23,
+  "blank": 26,
+  "comment": 50,
+  "code": 391},
+"ANTLR Grammar" :{
   "nFiles": 2,
-  "blank": 39,
-  "comment": 34,
-  "code": 263},
-"Python" :{
-  "nFiles": 5,
-  "blank": 0,
-  "comment": 4,
-  "code": 138},
-"INI" :{
-  "nFiles": 8,
-  "blank": 31,
-  "comment": 0,
-  "code": 122},
-"Perl" :{
+  "blank": 84,
+  "comment": 11,
+  "code": 335},
+"Thrift" :{
   "nFiles": 1,
-  "blank": 15,
-  "comment": 3,
-  "code": 115},
+  "blank": 50,
+  "comment": 2,
+  "code": 262},
+"reStructuredText" :{
+  "nFiles": 2,
+  "blank": 57,
+  "comment": 1,
+  "code": 206},
+"INI" :{
+  "nFiles": 11,
+  "blank": 36,
+  "comment": 1,
+  "code": 158},
+"Meson" :{
+  "nFiles": 3,
+  "blank": 24,
+  "comment": 9,
+  "code": 122},
 "make" :{
   "nFiles": 7,
   "blank": 38,
   "comment": 20,
   "code": 85},
+"Fish Shell" :{
+  "nFiles": 1,
+  "blank": 13,
+  "comment": 14,
+  "code": 42},
+"C Shell" :{
+  "nFiles": 1,
+  "blank": 9,
+  "comment": 5,
+  "code": 12},
 "Dockerfile" :{
   "nFiles": 1,
   "blank": 6,
   "comment": 0,
   "code": 7},
+"Fortran 95" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 1,
+  "code": 4},
 "CoffeeScript" :{
   "nFiles": 1,
   "blank": 1,
   "comment": 0,
   "code": 0},
 "SUM": {
-  "blank": 118335,
-  "comment": 240484,
-  "code": 1027433,
-  "nFiles": 13376} }
+  "blank": 133312,
+  "comment": 268591,
+  "code": 1136381,
+  "nFiles": 13940} }
